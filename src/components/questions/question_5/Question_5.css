@@ -1,0 +1,127 @@
+
+
+.question-wrapper {
+    padding: 20px;
+    margin: 20px;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.counter-content {
+    display: flex;
+    align-items: center;
+}
+
+.boundary {
+    margin-left: 10px;
+}
+
+.text-wrapper {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #6200ea;
+}
+
+.text-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-input {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.checkbox-text {
+    margin-left: 5px;
+}
+
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid black; 
+    border-radius: 4px; 
+    padding: 8px; 
+}
+
+.checkbox-input:checked + .checkbox-text {
+    color: #6200ea;
+    border-color: #6200ea;
+    border-radius: 4px; 
+    padding: 8px; 
+}
+
+.button-wrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+.helper-wrapper {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.helper-text {
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #6200ea;
+    padding-bottom: 2px;
+}
+
+.sub-helper-text{
+    font-size: 16px;
+    color: #666;
+    margin-left: 25px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.text-title{
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    text-align: left;
+}

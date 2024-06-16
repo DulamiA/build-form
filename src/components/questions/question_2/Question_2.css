@@ -1,0 +1,132 @@
+.question-wrapper {
+    margin-top: 10vh;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    transition: opacity 0.5s ease;
+    margin-left: 30px;
+  }
+    
+
+.LayoutWrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Section {
+    padding: 20px;
+}
+
+.block-scroller {
+    overflow: auto;
+}
+
+.ContentWrapper {
+    padding: 20px;
+}
+
+.StyledDivWrapper {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.HeaderWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.CounterPosition {
+    display: flex;
+    align-items: center;
+}
+
+.CounterContent {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.TextWrapper {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6200ea;
+}
+
+.BlockTitle {
+    margin-left: 10px;
+}
+
+.DescriptionWrapper {
+    margin-bottom: 20px;
+}
+
+.DescriptionText {
+    font-size: 14px;
+    color: #666;
+}
+
+.InputWrapper {
+    margin-bottom: 20px;
+}
+
+.InputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.HelperWrapper {
+    font-size: 14px;
+    color: #666;
+}
+
+.ActionHelperWrapper {
+    margin-top: 10px;
+}
+
+.KeyTextWrapper {
+    font-weight: bold;
+}
+
+.SubmitButton {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.SubmitButton:hover {
+    background-color: #3700b3;
+}
+
+.text-title {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    margin: 10px;
+}
+
+
+.sub-helper-text-2 {
+    font-size: 18px;
+    color: #666;
+    display: inline-block;
+    padding-bottom: 2px; 
+}
