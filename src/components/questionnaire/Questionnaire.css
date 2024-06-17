@@ -1,6 +1,7 @@
 .questionnaire-container {
   height: 100vh; 
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: space-between; 
 }
@@ -8,21 +9,24 @@
 .footer {
   position: fixed;
   bottom: 0;
-  left: 0;
-  width: 100%;
   background-color: white; 
   padding: 10px 0; 
-  display: flex;
-  justify-content: space-around; 
+  align-self:self-end;
+  padding-right: 100px;
+  padding-bottom: 50px;
 }
 
 .footer button {
   padding: 10px 20px;
-  background-color: #007bff; 
+  background-color: rgb(207, 159, 255); 
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.footer button:hover {
+  background-color: rgb(214, 179, 250);
 }
 
 .footer button:disabled {

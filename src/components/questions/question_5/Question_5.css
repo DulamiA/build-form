@@ -24,7 +24,7 @@
     margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    color: #6200ea;
+    color: rgb(207, 159, 255);
 }
 
 .text-title {
@@ -70,10 +70,9 @@
 }
 
 .checkbox-input:checked + .checkbox-text {
-    color: #6200ea;
-    border-color: #6200ea;
+    color: rgb(207, 159, 255);
+    border-color: rgb(207, 159, 255);
     border-radius: 4px; 
-    padding: 8px; 
 }
 
 .button-wrapper {
@@ -85,7 +84,7 @@
 button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #6200ea;
+    background-color: rgb(207, 159, 255);
     color: white;
     border: none;
     border-radius: 4px;
@@ -93,7 +92,7 @@ button {
 }
 
 button:hover {
-    background-color: #3700b3;
+    background-color: rgb(214, 179, 250);
 }
 
 .helper-wrapper {
@@ -107,7 +106,7 @@ button:hover {
     color: #666;
     margin-left: 10px;
     display: inline-block;
-    border-bottom: 2px solid #6200ea;
+    border-bottom: 2px solid rgb(207, 159, 255);
     padding-bottom: 2px;
 }
 

@@ -5,8 +5,8 @@ import "./Question_8.css";
 const Question_8 = ({ onSubmit }) => {
     const [selectedOption, setSelectedOption] = useState('');
     const options = [
-        { value: 'I accept', label: 'I accept' },
-        { value: 'I don’t accept', label: 'I don’t accept' },
+        { id: 'I accept',value: 'I accept', label: 'I accept' },
+        { id: 'I don’t accept',value: 'I don’t accept', label: 'I don’t accept' },
     ];
 
     const handleOptionChange = (event) => {
